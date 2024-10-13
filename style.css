@@ -1,25 +1,32 @@
 .address {
     position: relative;
-    display: flex;
+    display: flex 1 1 auto;
     align-items: center;
     justify-content: center;
   }
   
   .section {
-    display: flex;
+    display: flex 1 1 auto;
     align-items: center;
     justify-content: space-evenly;
   }
   
-  .body {
-     position: relative;
-    display: flex;
+.blockquote {
+    z-index: 1;
+}
+
+  .mb-3 {
+    position: relative;
+    width: 50% !important;
+    color:rgb(255, 0, 157) !Important;
+    display: flex 1 1 auto;
     align-items: center;
-    justify-content: center;
+    justify-content:center
   }
   
-  .box2 {
+  .mb-3 form-check{
     display: inline-block;
+    Width: 40% !important
     justify-content: space-between;
     border: solid red 3px;
     background-color: aqua;
