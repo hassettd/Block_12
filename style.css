@@ -1,0 +1,32 @@
+.address {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .body {
+     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box2 {
+    display: inline-block;
+    justify-content: space-between;
+    border: solid red 3px;
+    background-color: aqua;
+  }
+  .box3 {
+    display: inline-block;
+    justify-content: space-between;
+    border: solid rgb(68, 0, 255) 3px;
+    background-color: rgb(255, 0, 157);
+  }
